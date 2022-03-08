@@ -1,38 +1,421 @@
-.App {
+/* font-family: 'Poppins', sans-serif;  color: #F89F2D; orange*/
+
+/* HEROSECTION */
+
+button.buynow {
+  width: 9rem;
+  padding: 12px;
+  border-radius: 50px;
+  background: #f89c24;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-right: 25px;
+  transition: 0.4s;
+}
+p.text-para {
+  color: #253e5b;
+  width: 90% !important;
+  padding: 25px 0px;
+  font-size: 19px;
+}
+button.buynow:hover {
+  background: #253e5b;
+}
+button.telgram {
+  width: 6rem;
+  padding: 15px;
+  border-radius: 50px;
+  background: #f89c24;
+  color: white;
+  border: none;
+  font-size: 17px;
+  margin-right: 25px;
+  transition: 0.4s;
+}
+button.telgram:hover {
+  background: #253e5b;
+}
+button.whitepaper {
+  width: 8rem;
+  padding: 12px;
+  border-radius: 50px;
+  background: white;
+  border: 1px solid #f89c24 !important;
+  color: #f89c24;
+  border: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+button.whitepaper:hover {
+  background: #253e5b;
+  color: white;
+  border: none !important;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-content {
+  padding-left: 6rem;
+}
+img.header-image {
+  display: block;
+  margin-right: auto;
+  height: 60vh;
+}
+p.text-para {
+  padding: 25px 0px;
+  font-size: 19px;
+}
+h1.heading1 {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 1024px) {
+  img.header-image {
+    display: block;
+    margin-right: auto;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header-container {
+    display: grid;
+  }
+  .header-content {
+    padding-left: 2rem;
+  }
+  button.buynow {
+    width: 9rem;
+    padding: 12px;
+    border-radius: 50px;
+    background: #f89c24;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-right: 7px;
+    transition: 0.4s;
+  }
+}
+@media screen and (max-width: 280px) {
+  button.telgram {
+    width: 6rem;
+    padding: 15px;
+    border-radius: 50px;
+    background: #f89c24;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-right: 25px;
+    transition: 0.4s;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 11px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .header-container {
+    display: grid;
+    align-items: center;
+  }
+  a.nav-a.active {
+    color: black !important;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+    margin-left: 12px;
+  }
+  li.nav-item {
+    margin-left: 14px;
+  }
+  button.staking {
+    width: 8rem;
+    height: 3.3rem;
+    background: #f89c24;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    transition: 0.4s;
+    margin-top: 10px;
+  }
+  button.buy {
+    width: 7rem;
+    background: #f89c24;
+    color: white;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    transition: 0.4s;
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+}
+
+/* PARTNERS */
+section.partners-section {
+  margin-top: 12rem;
+}
+h2.partners {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.partners-content {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.partners-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+img.gb {
+  width: 70%;
+}
+a.er-link {
+  text-decoration: none;
+  color: black;
+  filter: grayscale(100%);
+}
+a.er-link:hover {
+  filter: grayscale(0);
+  color: #f89c24;
+}
+.coinMraketCap {
+  border-bottom: 1px solid;
+  padding-bottom: 14px;
+  transition: 0.4s;
+}
+.coingecko {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  transition: 0.4s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 540px) {
+  .partners-images {
+    margin-top: 3rem;
+    display: grid;
+  }
+  img.gb {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .coinMraketCap {
+    border-bottom: 1px solid;
+    padding-bottom: 14px;
+    transition: 0.4s;
+    margin-bottom: 20px;
+  }
+  .coingecko {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    transition: 0.4s;
+    margin-bottom: 40px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width: 280px) {
+  img.mgb {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .partners-images {
+    margin-top: 3rem;
+    display: grid;
+  }
+  img.mgb {
+    width: 90%;
+  }
+}
+.container {
+  padding-bottom: 10rem;
+}
+
+/* ROADMAP */
+
+/* TOKEN */
+
+.token-content {
+  text-align: center;
+  padding-bottom: 50px;
+}
+h2#token {
+  font-size: 3.2rem;
+  font-family: "Poppins", sans-serif;
+}
+p.token-text {
+  font-size: 20px;
+  padding-top: 15px;
+  color: #253e5b;
+}
+.row.d-flex.align-items-end {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.info-block {
+  margin-bottom: 25px;
+  padding: 30px;
+  box-shadow: 0px 10px 20px 12px rgb(0 0 0 / 4%);
+  border-radius: 24px;
+  text-align: center;
+}
+span.percent {
+  display: inline-block;
+  vertical-align: middle;
+  color: #f89f2d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+span.count {
+  display: inline-block;
+  vertical-align: middle;
+  color: #253e5b;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+span.dot {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 15px;
+  width: 7px;
+  height: 7px;
+  background-color: #253e5b;
+  border-radius: 7px;
+}
+.desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 12px;
+}
+a.info-link {
+  text-decoration: none;
+  color: black;
+}
+.circle-block.marketing {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  background-color: rgb(168, 195, 245);
+}
+.circle-block.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: rgb(191, 214, 255);
+}
+.circle-block.liquidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: rgb(215, 228, 252);
+}
+.circle-block.airdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: rgb(204, 220, 250);
+}
+span {
+  display: block;
+  text-align: center;
+  color: #253e5b;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  color: #253e5b;
+  font-weight: 300px;
+  font-size: 17px;
+}
+.tokenomics-circle {
+  border: 8px solid #f6818c;
+  border-radius: 391px;
+  overflow: hidden;
+  width: 391px;
+  height: 391px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+.tokenomics-total {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.title {
+  font-size: 25px;
+  color: #253e5b;
+}
+.value {
+  color: #253e5b;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 12px;
+}
+.name {
+  color: #253e5b;
+  font-size: 300;
+  font-family: "Poppins", sans-serif;
+  padding-top: 12px;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 540px) {
+  .tokenomics-circle {
+    border: 8px solid #f6818c;
+    border-radius: 0px !important;
+    overflow: hidden;
+    width: 391px;
+    height: 391px;
+    margin-bottom: 65px;
+    margin-left: -30px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .d-flex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .tokenomics-circle {
+    border: 8px solid #f6818c;
+    border-radius: 0px !important;
+    overflow: hidden;
+    width: 260px;
+    height: 340px;
+    margin-bottom: 65px;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .tokenomics-circle {
+    border: 8px solid #f6818c;
+    border-radius: 0px !important;
+    overflow: hidden;
+    width: 350px;
+    height: 380px;
+    margin-bottom: 65px;
+    margin-left: -37px;
   }
 }
