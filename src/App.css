@@ -133,37 +133,15 @@ h1.heading1 {
   li.nav-item {
     margin-left: 14px;
   }
-  button.staking {
-    width: 8rem;
-    height: 3.3rem;
-    background: #f89c24;
-    color: white;
-    border-radius: 50px;
-    font-size: 17px;
-    border: none;
-    transition: 0.4s;
-    margin-top: 10px;
-  }
-  button.buy {
-    width: 7rem;
-    background: #f89c24;
-    color: white;
-    height: 3rem;
-    border-radius: 50px;
-    font-size: 17px;
-    border: none;
-    transition: 0.4s;
-    margin-top: 10px;
-    margin-left: 8px;
-  }
 }
 
 /* PARTNERS */
 section.partners-section {
   margin-top: 12rem;
+  margin-bottom: 12rem;
 }
-h2.partners {
-  font-size: 40px;
+h2#partners {
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 .partners-content {
@@ -236,12 +214,32 @@ a.er-link:hover {
   img.mgb {
     width: 90%;
   }
+  .coinMraketCap {
+    border-bottom: 1px solid;
+    padding-bottom: 14px;
+    transition: 0.4s;
+    padding-top: 40px;
+  }
+  .coingecko {
+    border-bottom: 1px solid;
+    padding-bottom: 14px;
+    transition: 0.4s;
+    padding-top: 40px;
+  }
 }
 .container {
   padding-bottom: 10rem;
 }
 
 /* ROADMAP */
+
+h2#roadmap {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 50px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
 
 /* TOKEN */
 
@@ -250,7 +248,7 @@ a.er-link:hover {
   padding-bottom: 50px;
 }
 h2#token {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 p.token-text {
@@ -387,6 +385,11 @@ span {
     margin-bottom: 65px;
     margin-left: -30px;
   }
+  p.token-text {
+    font-size: 16px;
+    padding-top: 15px;
+    color: #253e5b;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -401,10 +404,28 @@ span {
     border: 8px solid #f6818c;
     border-radius: 0px !important;
     overflow: hidden;
-    width: 260px;
-    height: 340px;
+    width: 274px !important;
+    height: 326px !important;
     margin-bottom: 65px;
-    margin-left: -30px;
+  }
+  .footercontainer {
+    background: #f6818c;
+    height: 43vh !important;
+    position: relative;
+  }
+  img.footerlogo {
+    position: absolute;
+    left: 37%;
+    top: -15% !important;
+    width: 30%;
+  }
+  .copyright-container {
+    text-align: center;
+    background: #f89f2d;
+    height: 16vh !important;
+    padding-top: 2rem;
+    font-size: 18px;
+    color: white;
   }
 }
 
@@ -418,4 +439,82 @@ span {
     margin-bottom: 65px;
     margin-left: -37px;
   }
+  p.token-text {
+    font-size: 15px;
+    padding-top: 15px;
+    color: #253e5b;
+  }
 }
+
+/* FOOTER */
+
+p.footer-para {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  padding-top: 6rem;
+  color: #2c3e5b;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+svg.twitter {
+  margin-right: 15px;
+}
+.footercontainer {
+  background: #f6818c;
+  height: 40vh;
+  position: relative;
+}
+img.footerlogo {
+  position: absolute;
+  left: 43%;
+  top: -47%;
+  width: 17%;
+}
+.copyright-container {
+  text-align: center;
+  background: #f89f2d;
+  height: 10vh;
+  padding-top: 2rem;
+  font-size: 18px;
+  color: white;
+}
+
+@media screen and (max-width: 540px) {
+  img.footerlogo {
+    position: absolute;
+    left: 37%;
+    top: -24%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  img.footerlogo {
+    position: absolute;
+    left: 37%;
+    top: -17%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  img.footerlogo {
+    position: absolute;
+    left: 37%;
+    top: -50%;
+    width: 30%;
+  }
+  .footercontainer {
+    background: #f6818c;
+    height: 24vh;
+    position: relative;
+  }
+}
+
+

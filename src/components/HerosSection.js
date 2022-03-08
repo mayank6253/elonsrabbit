@@ -4,6 +4,10 @@ import headerimage from "../images/headerimage (2).png";
 import cmc from "../images/cmc.png";
 import cg from "../images/cg.png";
 import bsc from "../images/bsc.png";
+import Roadmap from "./Roadmap";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { FaTelegram } from "react-icons/fa";
+import rabbit from "../images/rabbit (2).png";
 
 export default function HerosSection() {
   return (
@@ -35,58 +39,12 @@ export default function HerosSection() {
         </div>
       </section>
 
-      {/*EXCHANGE */}
-
-      <section className="partners-section">
-        <div className="parterns-container">
-          <div className="partners-content">
-            <div className="heading-text">
-              <h2 id="exchange">Patners</h2>
-              <div className="partners-images">
-                <a
-                  href="https://coinmarketcap.com/currencies/elonsrabbit/"
-                  className="er-link"
-                >
-                  <div className="coinMraketCap">
-                    <img src={cmc} alt="" className="mgb" /> <br />
-                    Coinmarketcap
-                  </div>
-                </a>
-                <a
-                  href="https://www.coingecko.com/en/coins/elons-rabbit"
-                  className="er-link"
-                >
-                  <div className="coingecko">
-                    <img src={cg} alt="" className="gb" /> <br />
-                    Coingecko
-                  </div>
-                </a>
-                <a
-                  href="https://bscscan.com/token/0x92a4EbEE814AFe58741d7f216dC10211d5aBC250"
-                  className="er-link"
-                >
-                  <div className="coinMraketCap">
-                    <img src={bsc} alt="" className="mgb" /> <br />
-                    BSCscan.com
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ROADMAP */}
 
       <section>
         <div className="container">
           <h2 id="roadmap">RoadMap</h2>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
-          perspiciatis a iste consectetur facere ullam eligendi, sit nulla
-          cumque obcaecati mollitia aspernatur quia iure neque nesciunt magnam
-          amet! Quidem veniam fuga ab neque, nostrum sint libero dolore, eos
-          sunt doloremque inventore illum minus, assumenda est eligendi suscipit
-          adipisci. Ex, molestiae?{" "}
+          <Roadmap />
         </div>
       </section>
 
@@ -96,8 +54,9 @@ export default function HerosSection() {
         <div className="token-content">
           <h2 id="token">Tokenomics</h2>
           <p className="token-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/> Atque
-            laboriosam sed rem optio maiores eveniet a ab repudiandae facere ex!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <br /> Atque laboriosam sed rem optio maiores eveniet a ab
+            repudiandae facere ex!
           </p>
         </div>
         <section className="tokencontent-container">
@@ -196,6 +155,80 @@ export default function HerosSection() {
             </div>
           </div>
         </section>
+      </section>
+
+      {/*EXCHANGE */}
+
+      <section className="partners-section">
+        <div className="parterns-container">
+          <div className="partners-content">
+            <div className="heading-text">
+              <h2 id="exchange">Patners</h2>
+              <div className="partners-images">
+                <a
+                  href="https://coinmarketcap.com/currencies/elonsrabbit/" 
+                  target="_blank"  rel="noreferrer"
+                  className="er-link"
+                
+                >
+                  <div className="coinMraketCap">
+                    <img src={cmc} alt="" className="mgb" /> <br />
+                    Coinmarketcap
+                  </div>
+                </a>
+                <a
+                  href="https://www.coingecko.com/en/coins/elons-rabbit"
+                  target="_blank"  rel="noreferrer"
+                  className="er-link"
+                >
+                  <div className="coingecko">
+                    <img src={cg} alt="" className="gb" /> <br />
+                    Coingecko
+                  </div>
+                </a>
+                <a
+                  href="https://bscscan.com/token/0x92a4EbEE814AFe58741d7f216dC10211d5aBC250"
+                  target="_blank"  rel="noreferrer"
+                  className="er-link"
+                >
+                  <div className="coinMraketCap">
+                    <img src={bsc} alt="" className="mgb" /> <br />
+                    BSCscan.com
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTERS */}
+
+      <section className="footer-maincontainer">
+        <div className="footercontainer">
+          <div className="footer-content">
+            <img src={rabbit} alt="" className="footerlogo" />
+            <p className="footer-para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident ipsum recusandae placeat officia laborum.
+            </p>
+          </div>
+          <div className="social-links">
+            <a href="/">
+              <AiOutlineTwitter size={35} className="twitter" />
+            </a>
+            <a href="/">
+              <FaTelegram size={35} className="telegram" />
+            </a>
+          </div>
+          <div className="copyright-container">
+            <div className="copyright-content">
+              <p className="copyright">
+                Copyright ®2021 Elon Rabbit. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

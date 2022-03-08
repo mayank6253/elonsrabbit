@@ -138,3 +138,32 @@ a.nav-a.active {
     margin-left: 12px;
   }
 }
+
+@media screen and (max-width: 912px) {
+  button.staking {
+    width: 8rem;
+    height: 3.3rem;
+    background: #f89c24;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    transition: 0.4s;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  button.buy {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+  }
+  a.nav-a.active {
+    color: black !important;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+    margin-left: 38px;
+}
+}
