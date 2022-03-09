@@ -10,10 +10,10 @@ export default function Roadmap() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: '#F89E26', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid #F89E26' }}
           date="Dec 2021 - Feb 2022"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#F89E26', color: '#fff' }}
           icon={<GiMissileLauncher />}
         >
           <h3 className="vertical-timeline-element-title">PHASE I</h3>
@@ -27,10 +27,10 @@ export default function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: '#F89E26', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #F89E26' }}
           date="March 2022"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#F89E26', color: '#fff' }}
           icon={<GiRocketFlight />}
         >
           <h3 className="vertical-timeline-element-title">PHASE II</h3>
@@ -45,7 +45,9 @@ export default function Roadmap() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2022"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentStyle={{ background: '#F89E26', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid #F89E26' }}
+          iconStyle={{ background: '#F89E26', color: '#fff' }}
           icon={<GiPoliceBadge />}
         >
           <h3 className="vertical-timeline-element-title">PHASE III</h3>
@@ -59,11 +61,12 @@ export default function Roadmap() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Jun - Jul 2022"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentStyle={{ background: '#F89E26', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid #F89E26' }}
+          iconStyle={{ background: '#F89E26', color: '#fff' }}
           icon={<GiMetalBoot />}
         >
           <h3 className="vertical-timeline-element-title">PHASE IV</h3>
-          <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
           • Launchpad for projects willing to list on $BBT platform<br/>
           • VC Funding and Presale platforms<br/>

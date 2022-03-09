@@ -137,8 +137,8 @@ h1.heading1 {
 
 /* PARTNERS */
 section.partners-section {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
+  margin-top: 7rem;
+  margin-bottom: 11rem;
 }
 h2#partners {
   font-size: 3rem;
@@ -243,7 +243,9 @@ a.er-link:hover {
   margin-bottom: 50px;
   color: #2c3e5b;
 }
-
+.container-token {
+  padding-top: 7rem;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -430,37 +432,29 @@ p.footer-para {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
-  padding-top: 6rem;
-  color: #2c3e5b;
 }
-
+.copyright-content {
+  text-align: center;
+}
+img.footerlogo {
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  top: -45%;
+}
 .social-links {
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 20px;
 }
-
+.footer-content {
+  background: #414141;
+  color: #fff;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 svg.twitter {
   margin-right: 15px;
-}
-.footercontainer {
-  background: #f6818c;
-  height: 40vh;
-  position: relative;
-}
-img.footerlogo {
-  position: absolute;
-  left: 43%;
-  top: -47%;
-  width: 17%;
-}
-.copyright-container {
-  text-align: center;
-  background: #f89f2d;
-  height: 15vh;
-  padding-top: 2rem;
-  font-size: 18px;
-  color: white;
 }
 
 @media screen and (max-width: 540px) {
@@ -469,20 +463,6 @@ img.footerlogo {
     left: 37%;
     top: -36% !important;
     width: 30%;
-  }
-  .footercontainer {
-    background: #f6818c;
-    height: 32vh !important;
-    position: relative;
-  }
-  .copyright-container {
-    text-align: center;
-    background: #f89f2d;
-    height: 14vh;
-    padding-top: 2rem;
-    font-size: 18px;
-    color: white;
-    margin-top: -22px;
   }
 }
 
@@ -510,7 +490,6 @@ img.footerlogo {
 }
 @media screen and (max-width: 280px) {
   .footercontainer {
-    background: #f6818c;
     height: 43vh !important;
     position: relative;
   }
@@ -522,7 +501,7 @@ img.footerlogo {
   }
   .copyright-container {
     text-align: center;
-    background: #f89f2d;
+  
     height: 16vh !important;
     padding-top: 2rem;
     font-size: 18px;
@@ -537,6 +516,14 @@ h2#roadmap-cont {
   font-size: 3rem;
 }
 .container {
-  padding-bottom: 10rem;
+  padding-bottom: 0px;
   padding-top: 12rem;
+}
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
 }

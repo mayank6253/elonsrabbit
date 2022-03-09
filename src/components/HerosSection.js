@@ -141,7 +141,7 @@ export default function HerosSection() {
       {/* TOKENS */}
 
       <div id="tokenomics" className="row">
-        <div className="container">
+        <div className="container-token">
           <div className="row">
             <div className="col-12">
               <div className="token-area">
@@ -330,20 +330,20 @@ export default function HerosSection() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Provident ipsum recusandae placeat officia laborum.
             </p>
-          </div>
-          <div className="social-links">
-            <a href="/">
-              <AiOutlineTwitter size={35} className="twitter" />
-            </a>
-            <a href="/">
-              <FaTelegram size={35} className="telegram" />
-            </a>
-          </div>
-          <div className="copyright-container">
+
             <div className="copyright-content">
               <p className="copyright">
                 Copyright ®2021 Elon Rabbit. All Rights Reserved.
               </p>
+            </div>
+
+            <div className="social-links">
+              <a href="/">
+                <AiOutlineTwitter size={35} className="twitter" color="#fff"/>
+              </a>
+              <a href="/">
+                <FaTelegram size={35} className="telegram" color="#fff"/>
+              </a>
             </div>
           </div>
         </div>
