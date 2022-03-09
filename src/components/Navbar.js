@@ -49,7 +49,7 @@ export default function Navbar() {
                 </a>
               </li> 
               <li>
-                <a className="nav-a active" aria-current="page" href="#token">
+                <a className="nav-a active" aria-current="page" href="#tokenomics">
                   Tokenomics
                 </a>
               </li>
