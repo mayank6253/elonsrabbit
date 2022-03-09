@@ -202,7 +202,12 @@ a.er-link:hover {
 
 @media screen and (max-width: 280px) {
   img.mgb {
-    width: 70%;
+    width: 60% !important;
+  }
+  img.gb {
+    width: 60% !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -231,218 +236,191 @@ a.er-link:hover {
   padding-bottom: 10rem;
 }
 
-/* ROADMAP */
-
-h2#roadmap {
-  text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 50px;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-}
-
 /* TOKEN */
 
-.token-content {
+.section-header {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+  color: #2c3e5b;
 }
-h2#token {
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-}
-p.token-text {
-  font-size: 20px;
-  padding-top: 15px;
-  color: #253e5b;
-}
-.row.d-flex.align-items-end {
-  margin-left: 30px;
-  margin-right: 30px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .info-block {
-  margin-bottom: 25px;
-  padding: 30px;
-  box-shadow: 0px 10px 20px 12px rgb(0 0 0 / 4%);
-  border-radius: 24px;
+  border: 1px solid;
+  margin-bottom: 15px;
+}
+.circle-block.marketing {
+  height: 60px;
+  background-color: #ffd6ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: #2c3e5b;
+}
+.circle-block.liquidity {
+  height: 60px;
+  background-color: #ffd6ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2c3e5b;
+}
+.circle-block.team {
+  height: 60px;
+  background-color: #ffe5cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2c3e5b;
+}
+.circle-block.airdrop {
+  height: 200px;
+  background-color: #ffeedb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2c3e5b;
+}
+.tokenomics-total {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info-block {
+  border: none;
+  box-shadow: 0px 10px 48px rgb(0 0 0 / 4%);
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 7px;
 }
 span.percent {
   display: inline-block;
   vertical-align: middle;
-  color: #f89f2d;
+  color: #f89c24;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
   font-size: 36px;
 }
 span.count {
   display: inline-block;
   vertical-align: middle;
-  color: #253e5b;
-  font-weight: 700;
+  color: #2c3e5b;
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 29px;
 }
 span.dot {
+  background: #2c3e5b;
   display: inline-block;
   vertical-align: middle;
   margin: 0px 15px;
   width: 7px;
   height: 7px;
-  background-color: #253e5b;
   border-radius: 7px;
-}
-.desc {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  padding-top: 12px;
-}
-a.info-link {
-  text-decoration: none;
-  color: black;
-}
-.circle-block.marketing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  background-color: rgb(168, 195, 245);
-}
-.circle-block.team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  background-color: rgb(191, 214, 255);
-}
-.circle-block.liquidity {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  background-color: rgb(215, 228, 252);
-}
-.circle-block.airdrop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  background-color: rgb(204, 220, 250);
 }
 span {
   display: block;
-  text-align: center;
-  color: #253e5b;
-  font-size: 25px;
-  font-weight: 700;
   font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
-.content {
-  color: #253e5b;
-  font-weight: 300px;
-  font-size: 17px;
+.desc {
+  padding-top: 20px;
 }
 .tokenomics-circle {
-  border: 8px solid #f6818c;
-  border-radius: 391px;
+  border: 6px solid #ffad62;
+  border-radius: 50%;
   overflow: hidden;
   width: 391px;
   height: 391px;
-  margin-bottom: 65px;
-  margin-left: 35px;
+  margin-left: 30px;
 }
-.tokenomics-total {
-  text-align: center;
-  margin-bottom: 25px;
+a.block {
+  text-decoration: none;
+  color: black;
 }
 .title {
-  font-size: 25px;
-  color: #253e5b;
+  font-size: 28px;
+  padding-bottom: 7px;
+  color: #2c3e5b;
 }
 .value {
-  color: #253e5b;
-  font-weight: 900;
-  font-size: 35px;
-  font-family: "Poppins", sans-serif;
-  padding-top: 12px;
+  font-size: 37px;
+  padding-bottom: 5px;
+  color: #2c3e5b;
 }
-.name {
-  color: #253e5b;
-  font-size: 300;
-  font-family: "Poppins", sans-serif;
-  padding-top: 12px;
+.section-title {
+  font-size: 3rem;
+  padding-bottom: 7px;
+}
+.section-desc {
   font-size: 18px;
 }
 
 @media screen and (max-width: 540px) {
   .tokenomics-circle {
-    border: 8px solid #f6818c;
-    border-radius: 0px !important;
+    border: 6px solid #ffad62;
+    border-radius: 0% !important;
+    overflow: hidden;
+    width: 286px !important;
+    height: 331px !important;
+  }
+  .container {
+    padding-top: 190px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tokenomics-circle {
+    border: 6px solid #ffad62;
+    border-radius: 50%;
     overflow: hidden;
     width: 391px;
     height: 391px;
-    margin-bottom: 65px;
-    margin-left: -30px;
-  }
-  p.token-text {
-    font-size: 16px;
-    padding-top: 15px;
-    color: #253e5b;
+    margin-left: -6px !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .d-flex {
-    display: flex !important;
-    flex-wrap: wrap !important;
+  div#tokenomics {
+    padding-top: 110px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .tokenomics-circle {
+    display: none;
   }
 }
 
 @media screen and (max-width: 280px) {
   .tokenomics-circle {
-    border: 8px solid #f6818c;
-    border-radius: 0px !important;
+    border: 6px solid #ffad62;
+    border-radius: 50%;
     overflow: hidden;
-    width: 274px !important;
-    height: 326px !important;
-    margin-bottom: 65px;
+    width: 230px !important;
+    height: 391px;
+    margin-left: -6px !important;
   }
-  .footercontainer {
-    background: #f6818c;
-    height: 43vh !important;
-    position: relative;
-  }
-  img.footerlogo {
-    position: absolute;
-    left: 37%;
-    top: -15% !important;
-    width: 30%;
-  }
-  .copyright-container {
-    text-align: center;
-    background: #f89f2d;
-    height: 16vh !important;
-    padding-top: 2rem;
-    font-size: 18px;
-    color: white;
-  }
-}
-
-@media screen and (max-width: 412px) {
-  .tokenomics-circle {
-    border: 8px solid #f6818c;
-    border-radius: 0px !important;
-    overflow: hidden;
-    width: 350px;
-    height: 380px;
-    margin-bottom: 65px;
-    margin-left: -37px;
-  }
-  p.token-text {
-    font-size: 15px;
-    padding-top: 15px;
-    color: #253e5b;
+  .info-block {
+    border: none;
+    box-shadow: 0px 10px 48px rgb(0 0 0 / 4%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 7px;
   }
 }
 
@@ -450,7 +428,7 @@ span {
 
 p.footer-para {
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
   padding-top: 6rem;
   color: #2c3e5b;
@@ -479,7 +457,7 @@ img.footerlogo {
 .copyright-container {
   text-align: center;
   background: #f89f2d;
-  height: 10vh;
+  height: 15vh;
   padding-top: 2rem;
   font-size: 18px;
   color: white;
@@ -489,8 +467,22 @@ img.footerlogo {
   img.footerlogo {
     position: absolute;
     left: 37%;
-    top: -24%;
+    top: -36% !important;
     width: 30%;
+  }
+  .footercontainer {
+    background: #f6818c;
+    height: 32vh !important;
+    position: relative;
+  }
+  .copyright-container {
+    text-align: center;
+    background: #f89f2d;
+    height: 14vh;
+    padding-top: 2rem;
+    font-size: 18px;
+    color: white;
+    margin-top: -22px;
   }
 }
 
@@ -516,5 +508,35 @@ img.footerlogo {
     position: relative;
   }
 }
+@media screen and (max-width: 280px) {
+  .footercontainer {
+    background: #f6818c;
+    height: 43vh !important;
+    position: relative;
+  }
+  img.footerlogo {
+    position: absolute;
+    left: 37%;
+    top: -15% !important;
+    width: 30%;
+  }
+  .copyright-container {
+    text-align: center;
+    background: #f89f2d;
+    height: 16vh !important;
+    padding-top: 2rem;
+    font-size: 18px;
+    color: white;
+  }
+}
 
+/* ROADMAP */
 
+h2#roadmap-cont {
+  text-align: center;
+  font-size: 3rem;
+}
+.container {
+  padding-bottom: 10rem;
+  padding-top: 12rem;
+}
