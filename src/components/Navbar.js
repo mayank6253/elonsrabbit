@@ -44,7 +44,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a className="nav-a active" aria-current="page" href="#roadmap">
+                <a className="nav-a active" aria-current="page" href="#roadmap-cont">
                   Roadmap
                 </a>
               </li> 
