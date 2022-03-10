@@ -55,7 +55,7 @@ export default function BuyErabbit() {
                   Press “Swap” and confirm the transaction in your wallet{" "}
                 </li>
                 <li>
-                  Congratulations – welcome to the ETH Fan Token community!
+                  Congratulations – welcome to the ERabbit's community!
                 </li>
               </ul>
               <p className="eft-para">

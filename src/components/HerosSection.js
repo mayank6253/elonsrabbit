@@ -19,19 +19,15 @@ export default function HerosSection() {
       <section className="header-scetion">
         <div className="header-container">
           <div className="header-content">
-            <h1 className="heading1">HEADING 1</h1>
+            <h1 className="heading1">Elon's Rabbit</h1>
             <p className="text-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab
-              deleniti corporis voluptas minima excepturi aperiam. Maxime
-              praesentium ad hic, temporibus fuga corrupti harum deleniti
-              explicabo provident ut tempore consequatur nihil dolore dicta sit
-              deserunt enim labore excepturi, recusandae quaerat optio. Magnam
-              aliquam sunt soluta aspernatur fugiat laudantium, fugit ratione!
+              Elon's Rabbit took shape after Elon tweeted about his rabbit. It is a memecoin inspired by 
+              the tweet. The contract is renounced and is entirely a community run project now.
             </p>
             <div className="header-buttons">
-              <button className="buynow">Buy#Now</button>
-              <button className="telgram">Telegram</button>
-              <button className="whitepaper">White Paper</button>
+              <button className="buynow"><a href="https://pancakeswap.finance/swap?outputCurrency=0x92a4EbEE814AFe58741d7f216dC10211d5aBC250" target="_blank" style={{color:"#000", textDecoration:"none"}}>Buy Now</a></button>
+              <button className="telgram"><a href="https://t.me/elonsrabbit" target="_blank" style={{color:"#000", textDecoration:"none"}}>Telegram</a></button>
+              {/* <button className="whitepaper"><a href="#" target="_blank" style={{color:"#000", textDecoration:"none"}}>White Paper</a></button> */}
             </div>
             <div className="wb"></div>
           </div>
@@ -53,8 +49,6 @@ export default function HerosSection() {
                     <div className="section-header">
                       <div className="section-title">Tokenomics</div>
                       <div className="section-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit.
                       </div>
                     </div>
 
@@ -64,32 +58,32 @@ export default function HerosSection() {
                           <div className="info-listing">
                             <div className="info-block">
                               <div className="title">
-                                <span className="percent">5%</span>
+                                <span className="percent">23.5%</span>
                                 <span className="dot"></span>
-                                <span className="count">Airdrop</span>
+                                <span className="count">Private Sale</span>
                               </div>
-                              <div className="desc">
+                              {/* <div className="desc">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Debitis quia aliquid error
                                 porro optio repudiandae, possimus sit laborum
                                 natus beatae, quibusdam libero, facere molestias
                                 aut esse fugit in doloribus corrupti.
-                              </div>
+                              </div> */}
                             </div>
 
                             <div className="info-block">
                               <div className="title">
                                 <span className="percent">50%</span>
                                 <span className="dot"></span>
-                                <span className="count">Luquidity</span>
+                                <span className="count">Burned</span>
                               </div>
-                              <div className="desc">
+                              {/* <div className="desc">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Debitis quia aliquid error
                                 porro optio repudiandae, possimus sit laborum
                                 natus beatae, quibusdam libero, facere molestias
                                 aut esse fugit in doloribus corrupti.
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
@@ -98,32 +92,32 @@ export default function HerosSection() {
                           <div className="tokenomics-circle">
                             <div className="circle-block marketing">
                               <div className="content">
-                                <span>5%</span> Airdrop
+                                <span>12%</span> Launch
                               </div>
                             </div>
 
                             <div className="circle-block team">
                               <div className="content">
-                                <span>10%</span> IDO
+                                <span>23.5%%</span> Private Sale &amp; founders
                               </div>
                             </div>
 
                             <div className="circle-block liquidity">
                               <div className="content">
-                                <span>30%</span> Staking Rewards
+                                <span>14.5%</span> CEX Listings &amp; Airdrops
                               </div>
                             </div>
 
                             <div className="circle-block airdrop">
                               <div className="content">
-                                <span>50%</span> CEX/DEX
+                                <span>50%</span> Burned
                               </div>
                             </div>
                           </div>
 
                           <div className="tokenomics-total">
                             <div className="title">Total Supply</div>
-                            <div className="value">1,000,000</div>
+                            <div className="value">1,000,000,000</div>
                             <div className="name">ERabbit</div>
                           </div>
                         </div>
@@ -132,36 +126,36 @@ export default function HerosSection() {
                           <div className="info-listing">
                             <div className="info-block">
                               <div className="title">
-                                <span className="percent">15%</span>
+                                <span className="percent">12%</span>
                                 <span className="dot"></span>
                                 <span className="count">
-                                  Allocation for CEX/DEX
+                                  PCS Launch
                                 </span>
                               </div>
-                              <div className="desc">
+                              {/* <div className="desc">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Debitis quia aliquid error
                                 porro optio repudiandae, possimus sit laborum
                                 natus beatae, quibusdam libero, facere molestias
                                 aut esse fugit in doloribus corrupti.
-                              </div>
+                              </div> */}
                             </div>
 
                             <div className="info-block">
                               <a href="/" className="block">
                                 <div className="title">
-                                  <span className="percent">30%</span>
+                                  <span className="percent">14.5%</span>
                                   <span className="dot"></span>
-                                  <span className="count">Staking Rewards</span>
+                                  <span className="count">Airdrops</span>
                                 </div>
-                                <div className="desc">
+                                {/* <div className="desc">
                                   Lorem ipsum dolor sit amet consectetur,
                                   adipisicing elit. Debitis quia aliquid error
                                   porro optio repudiandae, possimus sit laborum
                                   natus beatae, quibusdam libero, facere
                                   molestias aut esse fugit in doloribus
                                   corrupti.
-                                </div>
+                                </div> */}
                               </a>
                             </div>
                           </div>
@@ -240,10 +234,10 @@ export default function HerosSection() {
         <div className="footercontainer">
           <div className="footer-content">
             <img src={rabbit} alt="" className="footerlogo" />
-            <p className="footer-para">
+            {/* <p className="footer-para">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Provident ipsum recusandae placeat officia laborum.
-            </p>
+            </p> */}
 
             <div className="copyright-content">
               <p className="copyright">

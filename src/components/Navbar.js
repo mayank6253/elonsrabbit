@@ -29,11 +29,11 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-a active" aria-current="page" href="/">
                   Home
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   className="nav-a active"
@@ -53,8 +53,8 @@ export default function Navbar() {
                   Tokenomics
                 </a>
               </li>
-              <button className="buy">BUY NOW</button>
-              <button className="staking">Staking DAPP</button>
+              {/* <button className="buy">BUY NOW</button>
+              <button className="staking">Staking DAPP</button> */}
             </ul>
           </div>
         </div>
