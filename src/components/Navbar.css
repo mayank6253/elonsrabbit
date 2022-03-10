@@ -30,6 +30,14 @@ button.buy {
   transition: 0.4s;
   margin-top: -10px;
 }
+.container-fluid {
+  margin-top: -30px;
+}
+
+.container-fluid {
+  margin-top: -30px;
+}
+
 button.buy:hover {
   background: #253e5b;
 }
@@ -165,5 +173,5 @@ a.nav-a.active {
     font-family: "Poppins", sans-serif;
     transition: 0.5s;
     margin-left: 38px;
-}
+  }
 }

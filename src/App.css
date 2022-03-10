@@ -57,11 +57,11 @@ button.whitepaper:hover {
   align-items: center;
 }
 .header-content {
-  padding-left: 6rem;
+  padding-left: 3rem;
 }
 img.header-image {
   display: block;
-  margin-right: auto;
+  margin-right: 70px;
   height: 60vh;
 }
 p.text-para {
@@ -376,9 +376,6 @@ a.block {
     width: 286px !important;
     height: 331px !important;
   }
-  .container {
-    padding-top: 190px;
-  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -393,9 +390,9 @@ a.block {
 }
 
 @media screen and (max-width: 1024px) {
-  div#tokenomics {
+  /* div#tokenomics {
     padding-top: 110px;
-  }
+  } */
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -440,7 +437,10 @@ img.footerlogo {
   width: 10%;
   position: absolute;
   left: 45%;
-  top: -45%;
+  top: -26%;
+}
+.footercontainer {
+  padding-top: 140px;
 }
 .social-links {
   text-align: center;
@@ -450,18 +450,27 @@ img.footerlogo {
   background: #414141;
   color: #fff;
   position: relative;
-  padding-top: 50px;
+  padding-top: 107px;
   padding-bottom: 25px;
 }
 svg.twitter {
   margin-right: 15px;
+}
+a.email {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: 0.4s;
+}
+a.email:hover {
+  color: #f89c24;
 }
 
 @media screen and (max-width: 540px) {
   img.footerlogo {
     position: absolute;
     left: 37%;
-    top: -36% !important;
+    top: -17% !important;
     width: 30%;
   }
 }
@@ -483,7 +492,6 @@ svg.twitter {
     width: 30%;
   }
   .footercontainer {
-    background: #f6818c;
     height: 24vh;
     position: relative;
   }
@@ -496,12 +504,12 @@ svg.twitter {
   img.footerlogo {
     position: absolute;
     left: 37%;
-    top: -15% !important;
+    top: -15%;
     width: 30%;
   }
   .copyright-container {
     text-align: center;
-  
+
     height: 16vh !important;
     padding-top: 2rem;
     font-size: 18px;
@@ -517,7 +525,7 @@ h2#roadmap-cont {
 }
 .container {
   padding-bottom: 0px;
-  padding-top: 12rem;
+  padding-top: 1.5rem;
 }
 .vertical-timeline::before {
   content: "";
@@ -526,4 +534,41 @@ h2#roadmap-cont {
   left: 18px;
   height: 100%;
   width: 4px;
+}
+.vertical-timeline.vertical-timeline--two-columns:before {
+  margin-left: -2px;
+  background: #ffad62 !important;
+}
+
+@media screen and (max-width: 1920px) {
+  .container-fluid {
+    max-width: 1440px;
+  }
+  .container {
+    padding-bottom: 0px;
+    padding-top: -5rem;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2c3e5b;
+    padding-top: 160px;
+  }
+  .section-content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-content {
+    background: #414141;
+    color: #fff;
+    position: relative;
+    padding-top: 107px;
+    padding-bottom: 25px;
+  }
+  section.header-scetion {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

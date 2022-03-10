@@ -1,6 +1,6 @@
 import React from "react";
 import rabbit from "../images/rabbit (2).png";
-import background from "../images/background.jpg";
+import background from "../images/background (2).jpg";
 import "./Navbar.css";
 
 export default function Navbar() {
