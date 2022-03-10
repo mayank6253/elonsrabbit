@@ -40,7 +40,7 @@ export default function Navbar() {
                   aria-current="page"
                   href="#exchange"
                 >
-                  Exchanges
+                  Listings
                 </a>
               </li>
               <li>
