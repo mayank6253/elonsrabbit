@@ -124,7 +124,7 @@ export default function HerosSection() {
                           <div className="tokenomics-total">
                             <div className="title">Total Supply</div>
                             <div className="value">1,000,000</div>
-                            <div className="name">XYZ</div>
+                            <div className="name">ERabbit</div>
                           </div>
                         </div>
 
