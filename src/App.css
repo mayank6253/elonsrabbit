@@ -446,6 +446,9 @@ img.footerlogo {
   text-align: center;
   margin-top: 10px;
 }
+.info-listing {
+  margin-bottom: 170px;
+}
 .footer-content {
   background: #414141;
   color: #fff;
