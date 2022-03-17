@@ -48,6 +48,8 @@ export default function Roadmap() {
           <p>
           • Contract Renounced<br/>
           • Fees reduced to 6%<br/>
+          • NFT Marketplace with Staking<br />
+          • Earn ERabbit tokens by staking NFTs
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

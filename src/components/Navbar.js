@@ -14,7 +14,7 @@ export default function Navbar() {
               className="logo"
               src={rabbit}
               alt="..."
-              width="200"
+              width="125"
             />
           </a>
           <button

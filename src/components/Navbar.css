@@ -5,8 +5,8 @@ div#navbarText {
 }
 
 img.rabbitlogo {
-  max-width: 40%;
-  min-width: 50%;
+  max-width: 25%;
+  min-width: 25%;
   border-radius: 50%;
 }
 a.nav-a.active {

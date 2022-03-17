@@ -241,7 +241,7 @@ export default function HerosSection() {
 
             <div className="copyright-content">
               <p className="copyright">
-                Copyright ®2021 Elon Rabbit. All Rights Reserved.
+                Copyright ®2021 Elons Rabbit. All Rights Reserved.
               </p>
               <a href="/" target="_blank" rel="noopener noreferrer" className="email">info@elonsrabbit.com</a>
             </div>
