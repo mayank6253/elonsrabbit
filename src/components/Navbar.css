@@ -4,11 +4,17 @@ div#navbarText {
   margin-right: 50px;
 }
 
+<<<<<<< Updated upstream
 img.rabbitlogo {
   max-width: 25%;
   min-width: 25%;
+=======
+/* img.rabbitlogo {
+  max-width: 40%;
+  min-width: 20%;
+>>>>>>> Stashed changes
   border-radius: 50%;
-}
+} */
 a.nav-a.active {
   margin-right: 3.2rem;
 }
@@ -159,6 +165,13 @@ a.nav-a.active {
     transition: 0.4s;
     margin-top: 10px;
     margin-left: 30px;
+  }
+  button.navbar-toggler.navbar-toggler-end {
+    margin-right: 50px !important;
+  }
+  .ms-auto {
+    margin-left: auto !important;
+    margin-top: 14px;
   }
   button.buy {
     margin-top: 20px;

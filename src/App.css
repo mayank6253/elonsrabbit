@@ -425,6 +425,21 @@ a.block {
     font-size: 2rem;
     padding-bottom: 7px;
   }
+  h4.eft {
+    font-size: 20px !important;
+    padding: 10px 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  li {
+    font-size: 12px !important;
+    font-family: "Poppins", sans-serif;
+  }
+  p.eft-para {
+    font-size: 14px;
+  }
+  b {
+    font-size: 11px;
+  }
 }
 
 /* FOOTER */
@@ -488,6 +503,12 @@ a.email:hover {
     left: 37%;
     top: -17%;
     width: 30%;
+  }
+  ul.eftList-item {
+    padding-left: 2.4rem;
+  }
+  b {
+    font-size: 12px;
   }
 }
 
