@@ -14,11 +14,7 @@ export default function Navbar() {
               className="logo"
               src={rabbit}
               alt="..."
-<<<<<<< Updated upstream
-              width="125"
-=======
-              width="100"
->>>>>>> Stashed changes
+              width="130"
             />
           </a>
           <button
